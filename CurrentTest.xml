@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="none">
+<listeners>
+<listener class-name="utils1.TestAllureListener" />
+</listeners>
+  <test name="checkcardReissue">
+    <classes>
+      <class name="AllureTests.AllureReissueCardTest"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  
