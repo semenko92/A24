@@ -18,7 +18,7 @@ public class TestBase {
  public static AndroidDriver<AndroidElement> mycapabilities() throws MalformedURLException {
 	       
 	        File appDir=new File("/Users/mac/Desktop");
-	        File app=new File(appDir,"app-fix.apk");
+	        File app=new File(appDir,"app-debug.apk");
 	       
 			DesiredCapabilities cap=new DesiredCapabilities();
 			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "TestDevice");

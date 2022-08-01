@@ -1,14 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 22.172 s <<< FAILURE! - in TestSuite
-beforeTest(AllureTests.AllureReissueCardTest)  Time elapsed: 1.845 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 82.274 s <<< FAILURE! - in TestSuite
+beforeTest(AllureTests.AllureReissueCardTest)  Time elapsed: 81.85 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
-Connection refused (Connection refused)
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MacBook-Pro.local', ip: '192.168.1.185', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
-Driver info: driver.version: AndroidDriver
-	at AllureTests.AllureReissueCardTest.beforeTest(AllureReissueCardTest.java:227)
-Caused by: java.net.ConnectException: Connection refused (Connection refused)
-	at AllureTests.AllureReissueCardTest.beforeTest(AllureReissueCardTest.java:227)
+System info: host: 'MacBook-Pro', ip: '192.168.1.185', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/mac/Desktop/app-debu..., appPackage: ua.com.abank, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/mac/Desktop/app-debu..., autoGrantPermissions: true, deviceName: TestDevice, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_arm, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2449, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: b746617f-809d-4965-8f05-c9dc2911de4f
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.TextView
+}
+	at AllureTests.AllureReissueCardTest.beforeTest(AllureReissueCardTest.java:238)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: '192.168.1.185', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/mac/Desktop/app-debu..., appPackage: ua.com.abank, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/mac/Desktop/app-debu..., autoGrantPermissions: true, deviceName: TestDevice, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_arm, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 172, takesScreenshot: true, viewportRect: {height: 2449, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: b746617f-809d-4965-8f05-c9dc2911de4f
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.TextView
+}
+	at AllureTests.AllureReissueCardTest.beforeTest(AllureReissueCardTest.java:238)
 
